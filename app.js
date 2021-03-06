@@ -109,6 +109,12 @@ mongoose
 		console.log(err);
 	});
 
+// github
+
+app.get('/github', (req, res) => {
+	res.send('fdghj');
+});
+
 app.listen(3000, () => {
 	console.log('Server is running');
 });

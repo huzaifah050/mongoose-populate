@@ -5,6 +5,9 @@ const Schema = mongoose.Schema;
 const ownerSchema = new Schema({
 	name: String,
 	nicky: String,
+	surname: {
+		type: String,
+	},
 	dog: { type: mongoose.Types.ObjectId, ref: 'Dog' },
 });
 
