@@ -6,7 +6,7 @@ const ownerSchema = new Schema({
 	name: String,
 	nicky: String,
 	surname: {
-		type: String,
+		type: Number,
 	},
 	dog: { type: mongoose.Types.ObjectId, ref: 'Dog' },
 });
